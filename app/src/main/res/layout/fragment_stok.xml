@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/txtStok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Stok Akan Ditampilkan Di Sini"
+        android:paddingBottom="8dp"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/inputNamaStok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama Stok" />
+
+    <EditText
+        android:id="@+id/inputJumlahStok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Stok"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnTambahStok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Stok" />
+</LinearLayout>
+
